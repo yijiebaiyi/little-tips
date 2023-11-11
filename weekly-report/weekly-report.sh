@@ -35,7 +35,7 @@ for ((i=0; i<7; i++)); do
     
     for path in "${gitpath[@]}"; do
         cd "$path" && \
-        git log --author="$gitname" --since="$current_date" --until="$end_date" --no-merges --pretty=format:'%Cgreen(%ad) %C(bold blue)%s' --date=default \
+        git log --author="$gitname" --since="$current_date" --until="$end_date" --no-merges --pretty=format:'%ad %s' --date=default \
         >> "$reportdir/$logfilename" 
     done
 
