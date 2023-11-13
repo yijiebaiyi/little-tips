@@ -12,7 +12,7 @@
 <br>
 <br>
 
-## Touch some small tools developed by 🐟🔧
+## Touch some useful scripts developed in free time
 
 Here are some gadgets I developed, including:
 
