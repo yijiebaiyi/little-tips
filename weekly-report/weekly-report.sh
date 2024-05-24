@@ -5,12 +5,12 @@ gitname="tuojinxin"
 
 # 你需要输出周报的git项目
 gitpath=(
-    "/d/project/standard_server"
-    "/d/project/demo/golang-demos"
+    "/d/project/STANDARD/standard_server"
+    "/d/project/STANDARD/video_struct"
 )
 
 # 输出周报保存路径
-reportdir="/d/project/little_tips/weekly-report/report"
+reportdir="/d/project/personal-project/useful-scripts/weekly-report/report"
 
 # 计算每周的开始天和结束天
 start_date=$(date -d "last monday" +"%Y-%m-%d")

@@ -1,0 +1,7 @@
+const juejin_cookie = "__tea_cookie_tokens_2608=%257B%2522user_unique_id%2522%253A%25227096818251988633099%2522%252C%2522web_id%2522%253A%25227096818251988633099%2522%252C%2522timestamp%2522%253A1697685605506%257D; sid_guard=985c1fad7b16c485382d460f853f30a8%7C1698064847%7C31536000%7CTue%2C+22-Oct-2024+12%3A40%3A47+GMT; uid_tt=69e7a1317363ab37f5ce87641713d316; uid_tt_ss=69e7a1317363ab37f5ce87641713d316; sid_tt=985c1fad7b16c485382d460f853f30a8; sessionid=985c1fad7b16c485382d460f853f30a8; sessionid_ss=985c1fad7b16c485382d460f853f30a8; sid_ucp_v1=1.0.0-KGNiMjE2OTUwYjZjOWMwYzFhNzE0NDg0YzI3MTgzZjAyODcyNGRjMzAKFwids7H-mozsBxDP09mpBhiwFDgCQPEHGgJscSIgOTg1YzFmYWQ3YjE2YzQ4NTM4MmQ0NjBmODUzZjMwYTg; ssid_ucp_v1=1.0.0-KGNiMjE2OTUwYjZjOWMwYzFhNzE0NDg0YzI3MTgzZjAyODcyNGRjMzAKFwids7H-mozsBxDP09mpBhiwFDgCQPEHGgJscSIgOTg1YzFmYWQ3YjE2YzQ4NTM4MmQ0NjBmODUzZjMwYTg; store-region=cn-hk; store-region-src=uid; _tea_utm_cache_2018={%22utm_source%22:%22jj_nav%22}; _tea_utm_cache_2608={%22utm_source%22:%22jj_nav%22}; csrf_session_id=596eae1a2da4c1e40e020acaea7a2d1b; msToken=4xGiIe4bUdeHZ3u8OxqsY5vq_VS6RGn8Lv7gHHkFRkx9DBe0WslJgJRCrOrds13ZXXCvxxrgZ8uyOKmzqwXPO_gscByCh5VAzmCDyw_iw4Z6hzsfiIppwiJXvToKIpvk";
+
+// ES Modules写法，需要在package.json添加：  "type": "module"
+// export default cookie;
+
+// CommonJS写法
+module.exports = {juejin_cookie};

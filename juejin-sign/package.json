@@ -1,0 +1,16 @@
+{
+  "name": "juejin-sign",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "node-schedule": "^2.1.1"
+  },
+  "scripts": {
+    "dev": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "一介白衣ing",
+  "license": "ISC"
+}
