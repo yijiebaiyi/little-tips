@@ -93,6 +93,30 @@ const check_in_juejin = async () => {
     console.log('==================掘金脚本失败咯~应该需要更新cookie啦!===================')
     return;
   }
+
+  // 脚本执行过审
+const messageCounturl = 'https://api.juejin.cn/interact_api/v1/message/count';
+const messageCountParams = {
+  aid: '2608',
+  uuid: '7096818251988633099',
+  spider: '0'
+};
+const messageCountHeaders = {
+  'Content-Type': 'application/json',
+  'Cookie': juejin_cookie,
+  'Sec-Ch-Ua': '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"',
+  'Sec-Ch-Ua-Mobile':'?0',
+  'Sec-Ch-Ua-Platform':'"Windows"',
+  'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
+};
+axios.get(messageCounturl, {params: messageCountParams, headers: messageCountHeaders })
+  .then(response => {
+    console.log(response.data);
+  })
+  .catch(error => {
+    console.error('Error 避审失败:', error);
+  });
+
   if (!res_verifyTodayStatus.data) {
     let res_checkIn = await _http(apis.checkIn);
     if (res_checkIn.err_no == 0) {
